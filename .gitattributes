@@ -1,0 +1,6 @@
+# Normalize line endings for a cross-platform repo
+* text=auto eol=lf
+*.bat text eol=crlf
+gradlew text eol=lf
+*.jar binary
+*.png binary

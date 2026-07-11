@@ -1,0 +1,21 @@
+# Secrets — NEVER commit real keys. Copy .env.example to .env and keep it local.
+.env
+*.env
+!.env.example
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
