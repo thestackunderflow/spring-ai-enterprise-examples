@@ -1,10 +1,37 @@
 # Episode 02 — Why Spring AI Fits Spring Boot Teams
 
-_Example code lands when this episode ships._ The concept:
+The AI-calling service is a plain Spring bean that constructor-injects `ChatClient.Builder` — the same
+move you already make with any repository. DI, a starter, and auto-configuration do the rest.
 
-**DI, starters, and auto-configuration — the Spring patterns that transfer straight to AI.**
+📺 Video: _(link on publish)_ · 📄 Tutorial: [thestackunderflow.com/tutorials/why-spring-boot-teams](https://thestackunderflow.com/tutorials/why-spring-boot-teams)
 
-- Series: https://www.youtube.com/@TheStackUnderflow?sub_confirmation=1
-- Tutorials: https://thestackunderflow.com/spring-ai
+## Run it
 
-When the code lands, this module is wired into the Gradle build via the root `settings.gradle.kts`.
+```bash
+export OPENAI_API_KEY=sk-...
+./gradlew :02-why-spring-boot-teams:bootRun
+```
+
+## The pattern that transfers
+
+```java
+@Service
+public class SupportService {
+    private final ChatClient chatClient;
+
+    // Inject ChatClient.Builder through the constructor — exactly like injecting a repository.
+    public SupportService(ChatClient.Builder builder) {
+        this.chatClient = builder.build();
+    }
+
+    public String answer(String question) {
+        return chatClient.prompt().user(question).call().content();
+    }
+}
+```
+
+- **Starter:** `org.springframework.ai:spring-ai-starter-model-openai` (see [`build.gradle.kts`](build.gradle.kts)).
+- **Auto-configuration** builds the `OpenAiChatModel` bean and provides a prototype-scoped `ChatClient.Builder`.
+- **Config** lives in `application.properties`, keyed off an env var — no secrets in code.
+
+Same DI, same starters, same auto-config, same tests you already trust — pointed at a model.
