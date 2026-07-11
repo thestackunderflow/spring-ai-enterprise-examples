@@ -7,7 +7,7 @@ Each module is a self-contained Spring Boot app you can run on its own. This is 
 framework** — no shared abstractions, no magic. Read the code, run it, adapt it.
 
 - **Watch:** [@TheStackUnderflow](https://www.youtube.com/@TheStackUnderflow?sub_confirmation=1)
-- **Read:** [thestackunderflow.com/spring-ai](https://thestackunderflow.com/spring-ai)
+- **Read:** [thestackunderflow.com/tutorials](https://thestackunderflow.com/tutorials)
 
 ## Requirements
 
