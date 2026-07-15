@@ -2,7 +2,7 @@
 
 The whole series on one ChatClient: a system prompt, an advisor stack (audit + RAG + memory), and `@Tool`s the model can call — composed like any Spring `@Service`.
 
-📺 Video: _(published with the episode)_ · 📄 Tutorial: [thestackunderflow.com/tutorials/production-blueprint](https://thestackunderflow.com/tutorials/production-blueprint)
+📺 Video: https://youtu.be/QuvniDFJ__Q · 📄 Tutorial: [thestackunderflow.com/tutorials/production-blueprint](https://thestackunderflow.com/tutorials/production-blueprint)
 
 ## Run it
 

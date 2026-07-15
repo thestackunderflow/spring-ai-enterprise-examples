@@ -2,7 +2,7 @@
 
 `.entity(...)` turns a model’s free-form text into a typed, validated Java object — Jackson-for-models — so nothing downstream ever handles raw model text.
 
-📺 Video: [youtu.be/bYUHrNlorT4](https://youtu.be/bYUHrNlorT4) · 📄 Tutorial: [thestackunderflow.com/tutorials/structured-output](https://thestackunderflow.com/tutorials/structured-output)
+📺 Video: https://youtu.be/bYUHrNlorT4 · 📄 Tutorial: [thestackunderflow.com/tutorials/structured-output](https://thestackunderflow.com/tutorials/structured-output)
 
 ## Run it
 

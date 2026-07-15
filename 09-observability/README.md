@@ -2,7 +2,7 @@
 
 A `SimpleLoggerAdvisor` logs every prompt/response; the typed `ChatResponse` metadata plus Micrometer observations (via actuator) expose token usage and latency as metrics.
 
-📺 Video: [youtu.be/U0QfnznxF90](https://youtu.be/U0QfnznxF90) · 📄 Tutorial: [thestackunderflow.com/tutorials/observability](https://thestackunderflow.com/tutorials/observability)
+📺 Video: https://youtu.be/U0QfnznxF90 · 📄 Tutorial: [thestackunderflow.com/tutorials/observability](https://thestackunderflow.com/tutorials/observability)
 
 ## Run it
 

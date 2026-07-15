@@ -2,7 +2,7 @@
 
 Close the “it answered, but was it right?” gap with an evaluator — a second, independent model call that judges the first answer and returns pass/fail. Wire it into a JUnit test and it becomes a release gate.
 
-📺 Video: [youtu.be/tsYFTVahXeE](https://youtu.be/tsYFTVahXeE) · 📄 Tutorial: [thestackunderflow.com/tutorials/evaluation-guardrails](https://thestackunderflow.com/tutorials/evaluation-guardrails)
+📺 Video: https://youtu.be/tsYFTVahXeE · 📄 Tutorial: [thestackunderflow.com/tutorials/evaluation-guardrails](https://thestackunderflow.com/tutorials/evaluation-guardrails)
 
 ## Run it
 

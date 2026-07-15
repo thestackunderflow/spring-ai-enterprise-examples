@@ -2,7 +2,7 @@
 
 Embed your governed documents into a VectorStore, retrieve the relevant ones, and add them to the prompt — so the model answers from content you control, grounded.
 
-📺 Video: [youtu.be/RE8LizkOldE](https://youtu.be/RE8LizkOldE) · 📄 Tutorial: [thestackunderflow.com/tutorials/rag-vector-stores](https://thestackunderflow.com/tutorials/rag-vector-stores)
+📺 Video: https://youtu.be/RE8LizkOldE · 📄 Tutorial: [thestackunderflow.com/tutorials/rag-vector-stores](https://thestackunderflow.com/tutorials/rag-vector-stores)
 
 ## Run it
 

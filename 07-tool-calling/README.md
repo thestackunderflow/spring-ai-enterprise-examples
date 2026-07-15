@@ -2,7 +2,7 @@
 
 Annotate a plain Java method with `@Tool`, hand the object to the ChatClient, and the model can decide to call it — Spring AI binds the JSON arguments straight onto your method signature.
 
-📺 Video: [youtu.be/yN6fPGRL6_0](https://youtu.be/yN6fPGRL6_0) · 📄 Tutorial: [thestackunderflow.com/tutorials/tool-calling](https://thestackunderflow.com/tutorials/tool-calling)
+📺 Video: https://youtu.be/yN6fPGRL6_0 · 📄 Tutorial: [thestackunderflow.com/tutorials/tool-calling](https://thestackunderflow.com/tutorials/tool-calling)
 
 ## Run it
 

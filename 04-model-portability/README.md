@@ -2,7 +2,7 @@
 
 One `ChatClient`, swappable `ChatModel` beans. Your code talks to the `ChatModel` *interface* — never a vendor SDK — so changing providers is a configuration decision, not a rewrite.
 
-📺 Video: [youtu.be/Az79qqNDiHo](https://youtu.be/Az79qqNDiHo) · 📄 Tutorial: [thestackunderflow.com/tutorials/model-portability](https://thestackunderflow.com/tutorials/model-portability)
+📺 Video: https://youtu.be/Az79qqNDiHo · 📄 Tutorial: [thestackunderflow.com/tutorials/model-portability](https://thestackunderflow.com/tutorials/model-portability)
 
 ## Run it
 

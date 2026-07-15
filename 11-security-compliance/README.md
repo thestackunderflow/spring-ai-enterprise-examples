@@ -2,7 +2,7 @@
 
 The four controls and where each lives in a Spring AI app: **Secrets** (externalized key), **Authz** (Spring Security + in-`@Tool` checks), **Data boundary** (`SafeGuardAdvisor` + `ModerationModel`), **Audit** (`SimpleLoggerAdvisor` + Micrometer).
 
-📺 Video: [youtu.be/m6KhNUVk2fk](https://youtu.be/m6KhNUVk2fk) · 📄 Tutorial: [thestackunderflow.com/tutorials/security-compliance](https://thestackunderflow.com/tutorials/security-compliance)
+📺 Video: https://youtu.be/m6KhNUVk2fk · 📄 Tutorial: [thestackunderflow.com/tutorials/security-compliance](https://thestackunderflow.com/tutorials/security-compliance)
 
 ## Run it
 

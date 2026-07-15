@@ -2,7 +2,7 @@
 
 The same `@Tool` methods from Episode 7, exposed over the standard **Model Context Protocol** so any MCP client (Claude Desktop, another service) can call them.
 
-📺 Video: [youtu.be/gOHcj39zEPM](https://youtu.be/gOHcj39zEPM) · 📄 Tutorial: [thestackunderflow.com/tutorials/mcp-integration](https://thestackunderflow.com/tutorials/mcp-integration)
+📺 Video: https://youtu.be/gOHcj39zEPM · 📄 Tutorial: [thestackunderflow.com/tutorials/mcp-integration](https://thestackunderflow.com/tutorials/mcp-integration)
 
 ## Run it
 
