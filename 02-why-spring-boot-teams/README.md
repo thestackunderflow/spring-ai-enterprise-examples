@@ -3,7 +3,7 @@
 The AI-calling service is a plain Spring bean that constructor-injects `ChatClient.Builder` — the same
 move you already make with any repository. DI, a starter, and auto-configuration do the rest.
 
-📺 Video: _(link on publish)_ · 📄 Tutorial: [thestackunderflow.com/tutorials/why-spring-boot-teams](https://thestackunderflow.com/tutorials/why-spring-boot-teams)
+📺 Video: https://youtu.be/3UFXS9jtZPo · 📄 Tutorial: [thestackunderflow.com/tutorials/why-spring-boot-teams](https://thestackunderflow.com/tutorials/why-spring-boot-teams)
 
 ## Run it
 

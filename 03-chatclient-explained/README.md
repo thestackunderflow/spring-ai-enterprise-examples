@@ -3,7 +3,7 @@
 The fluent chain `prompt → system/user → call → content/chatResponse`, and the piece the quick-starts skip:
 the response carries the model name and token usage — your cost meter, for free.
 
-📺 Video: _(link on publish)_ · 📄 Tutorial: [thestackunderflow.com/tutorials/chatclient-explained](https://thestackunderflow.com/tutorials/chatclient-explained)
+📺 Video: https://youtu.be/LZpDKUIu88M · 📄 Tutorial: [thestackunderflow.com/tutorials/chatclient-explained](https://thestackunderflow.com/tutorials/chatclient-explained)
 
 ## Run it
 

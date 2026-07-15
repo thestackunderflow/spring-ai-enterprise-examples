@@ -2,7 +2,7 @@
 
 The smallest possible Spring AI program: an injected, auto-configured model bean and a fluent call.
 
-📺 Video: _(link on publish)_ · 📄 Tutorial: [thestackunderflow.com/tutorials/what-is-spring-ai](https://thestackunderflow.com/tutorials/what-is-spring-ai)
+📺 Video: https://youtu.be/DpOzFKpDZYY · 📄 Tutorial: [thestackunderflow.com/tutorials/what-is-spring-ai](https://thestackunderflow.com/tutorials/what-is-spring-ai)
 
 ## Run it
 
